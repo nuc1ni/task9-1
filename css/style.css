@@ -327,11 +327,49 @@
     margin-left: 1118px;
 }
 
-@media only screen and (max-width: 1024px)
+@media  (max-width: 1024px)
 {
-.body {
+   .body {
     width: 1024px;
-    height: 3536px;
+    height: 53536px;
+    
+    .header {
+        width: 1024px;
+        height: 647px;
+
+    }
+    .section {
+        width: 764px;
+        height: 1149.72px;
+       
+    }
+    .container{
+        width: 764px;
+        height: 759px;
+        flex-wrap: wrap;
+    }
+    .container-box {
+        width: 298px;
+        height: 212px;
+
+    }
+    .wraper {
+        width: 904px;
+        height: 404px;
+        margin-left: 58px;
+    }
+    .left-wraper {
+        width: 515px;
+        height: 404px;
+    }
+    .right-wraper {
+        width: 424px;
+        height: 404px;
+    }
+    .footer {
+        width: 1024px;
+        height: 536px;
+    }
 
 }
 
