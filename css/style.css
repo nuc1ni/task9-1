@@ -1,6 +1,11 @@
 .body {
     width: 1440px;
     height: 3536px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
     
 }
 .header {
@@ -338,6 +343,7 @@
         height: 647px;
 
     }
+    
     .section {
         width: 764px;
         height: 1149.72px;
@@ -374,3 +380,52 @@
 }
 
 }
+@media  (max-width: 375px) {
+    .body {
+        width: 375px;
+        height: 5566px;
+    }
+    .header{
+        width: 375px;
+        height: 601px;
+    }
+    .navigation {
+        display: none;
+    }
+    .button {
+        width: 78px;
+        height: 40px;
+        margin-left: 264px;
+    }
+    .paragraph {
+        width: 335px;
+        height: 379px;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .section {
+        width: 335px;
+        height: 1900px;
+    }
+    .container{
+        width: 335px;
+        height: 1665px;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+
+    }
+    .container-box {
+        width: 298px;
+        height: 212px;
+    }
+}
+    
