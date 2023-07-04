@@ -4,7 +4,7 @@
     
 }
 .header {
-    background-image: url('/images/background.jpg'); 
+    background-image: url('../images/background.jpg');
     width: 1440px;
     height: 754px;
     background-repeat: no-repeat;
@@ -325,4 +325,14 @@
 }
 .logo {
     margin-left: 1118px;
+}
+
+@media only screen and (max-width: 1024px)
+{
+.body {
+    width: 1024px;
+    height: 3536px;
+
+}
+
 }
